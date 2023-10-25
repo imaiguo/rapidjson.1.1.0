@@ -23,3 +23,5 @@ Doxyfile
 Doxyfile.zh-cn
 DartConfiguration.tcl
 *.nupkg
+.vscode
+build

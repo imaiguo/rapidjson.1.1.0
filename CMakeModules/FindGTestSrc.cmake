@@ -1,7 +1,10 @@
 
 SET(GTEST_SEARCH_PATH
+    D:/workspace/googletest.1.12.0/googletest
     "${GTEST_SOURCE_DIR}"
     "${CMAKE_CURRENT_LIST_DIR}/../thirdparty/gtest/googletest")
+
+set(GOOGLETEST_VERSION "1.12.0")
 
 IF(UNIX)
     IF(RAPIDJSON_BUILD_THIRDPARTY_GTEST)
